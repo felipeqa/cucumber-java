@@ -1,4 +1,4 @@
-Feature: Login Feature
+Feature: Login Feature THREE
   This feature deals with the login functionality of the application
 
   Scenario: Login with correct user and password
