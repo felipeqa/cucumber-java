@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a0e3b105-7159-45f9-81f2-8f89f86b8130" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CucumberBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CucumberBasic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/felipe/cucumber/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/felipe/cucumber/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Transformation/EmailTranform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Transformation/EmailTranform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Transformation/SalaryCountTransform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Transformation/SalaryCountTransform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Java8VersionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Java8VersionSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginFourSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginFourSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginThree$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginThree$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginTwo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,18 +64,18 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="feature" value="19" />
+          <entry key="feature" value="20" />
           <entry key="iml" value="3" />
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Cucumber" value="19" />
+          <entry key="Cucumber" value="20" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -77,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/Java8VersionSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -207,7 +216,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538761930286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538762277326" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -360,9 +369,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__LoginFour - 2018.10.03 at 17h 37m 31s.xml">
-      <configuration name="Feature: LoginFour" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__LoginFour - 2018.10.03 at 17h 38m 34s.xml">
       <configuration name="Feature: LoginFour" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -390,6 +396,9 @@
     <history-entry file="Feature__LoginFive - 2018.10.05 at 14h 14m 16s.xml">
       <configuration name="Feature: LoginFive" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__LoginSix - 2018.10.05 at 14h 52m 05s.xml">
+      <configuration name="Feature: LoginSix" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="-11" width="1315" height="780" extended-state="6" />
@@ -404,13 +413,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960536" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960536" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50039464" side_tool="true" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4988161" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5011839" side_tool="true" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -505,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginFourSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -599,10 +601,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginFourSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Java8VersionSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
