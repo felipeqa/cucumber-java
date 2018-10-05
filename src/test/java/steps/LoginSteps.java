@@ -4,11 +4,15 @@ package steps;
 import Base.BaseUtil;
 import Transformation.EmailTranform;
 import Transformation.SalaryCountTransform;
-import cucumber.api.PendingException;
 import cucumber.api.Transform;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import static org.junit.Assert.assertTrue;
 
 public class LoginSteps extends BaseUtil {
 
@@ -20,7 +24,7 @@ public class LoginSteps extends BaseUtil {
 
     @Given("^I navigate to the login page$")
     public void iNavigateToTheLoginPage() throws Throwable {
-        System.out.println(base.stepInfo);
+       base.driver.get("http://www.executeautomation.com/demosite/Login.html");
     }
 
     @And("^I enter the username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
@@ -30,14 +34,18 @@ public class LoginSteps extends BaseUtil {
 
     @And("^I click login button$")
     public void iClickLoginButton() throws Throwable {
-
-
+        base.driver.findElement(By.name("Login")).submit();
     }
 
     @Then("^I should see the userform page$")
     public void iShouldSeeTheUserformPage() throws Throwable {
+        new WebDriverWait(base.driver, 10)
+                .until(ExpectedConditions.visibilityOfElementLocated(By.id("Initial")));
 
+        Assert.assertEquals("Its not displayed", base.driver.findElement(By.id("Initial")).isDisplayed(), true);
 
+        // simple exemple of assert
+        assertTrue(true);
     }
 
     @And("^I enter the user email address as Email:([^\"]*)$")

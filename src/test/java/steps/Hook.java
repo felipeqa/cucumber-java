@@ -4,6 +4,9 @@ import Base.BaseUtil;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.sql.Driver;
 
 public class Hook extends BaseUtil{
 
@@ -15,10 +18,11 @@ public class Hook extends BaseUtil{
 
     @Before
     public void initializeTest(){
-        System.out.println("Opening Browser: MOCK");
+        System.out.println("Opening Browser: Firefox");
 
         // Passing a dummy Webdriver instance
-        base.stepInfo = "FirefoxDriver";
+        base.driver = new FirefoxDriver();
+
     }
 
     @After
