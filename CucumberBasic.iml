@@ -45,56 +45,5 @@
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.14.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.almundo.flights:available-credit:0.1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-web:1.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter:1.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot:1.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:jcl-over-slf4j:1.7.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:jul-to-slf4j:1.7.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:log4j-over-slf4j:1.7.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-classic:1.1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.14" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.0.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.0.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat.embed:tomcat-embed-logging-juli:8.0.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.0.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-validator:5.1.3.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.logging:jboss-logging:3.1.3.GA" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml:classmate:1.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-web:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-aop:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-beans:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-context:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-webmvc:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-expression:4.1.7.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.github.detro.ghostdriver:phantomjsdriver:1.1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:selenium-server:2.39.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.bouncycastle:bcprov-jdk15on:1.48" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.48" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: mx4j:mx4j-tools:3.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:servlet-api-2.5:6.1.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.seleniumhq.selenium:jetty-repacked:7.6.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.anthavio:phanbedder-1.9.7:1.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.almundo.commons:rest-connector:2.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.ning:async-http-client:1.7.20" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty:3.6.6.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-core:2.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: joda-time:joda-time:2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-api:1.7.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: commons-io:commons-io:2.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.typesafe:config:1.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.newrelic.agent.java:newrelic-api:2.21.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.almundo.abs.mailer:mailer-api:2.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.logstash.logback:logstash-logback-encoder:4.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-core:1.1.3" level="project" />
   </component>
 </module>
