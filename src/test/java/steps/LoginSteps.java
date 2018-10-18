@@ -12,6 +12,8 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.LoginPage;
+
 import static org.junit.Assert.assertTrue;
 
 public class LoginSteps extends BaseUtil {
@@ -34,7 +36,9 @@ public class LoginSteps extends BaseUtil {
 
     @And("^I click login button$")
     public void iClickLoginButton() throws Throwable {
-        base.driver.findElement(By.name("Login")).submit();
+//        base.driver.findElement(By.name("Login")).submit();
+        LoginPage page = new LoginPage(base.driver);
+        page.ClickLogin();
     }
 
     @Then("^I should see the userform page$")

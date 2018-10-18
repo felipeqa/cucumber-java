@@ -5,6 +5,7 @@ import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import org.openqa.selenium.By;
+import pages.LoginPage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,9 +31,10 @@ public class LoginThree extends BaseUtil {
 //            System.out.println("The password is " + user.password);
 //        }
 
+        LoginPage page = new LoginPage(base.driver);
+
         for(User user : users){
-            base.driver.findElement(By.name("UserName")).sendKeys(user.username);
-            base.driver.findElement(By.name("Password")).sendKeys(user.password);
+            page.Login(user.username, user.password);
         }
 
     }
