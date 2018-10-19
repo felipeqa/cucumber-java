@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0e3b105-7159-45f9-81f2-8f89f86b8130" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hook.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,22 +76,22 @@
     <session id="990781402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="feature" value="8" />
-          <entry key="html" value="11" />
+          <entry key="html" value="13" />
           <entry key="iml" value="3" />
-          <entry key="java" value="23" />
+          <entry key="java" value="25" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
           <entry key="xml" value="9" />
@@ -101,9 +101,9 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Cucumber" value="8" />
-          <entry key="HTML" value="11" />
+          <entry key="HTML" value="13" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="25" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="XML" value="9" />
@@ -112,27 +112,36 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="20" />
-          <entry key="java" value="535" />
-          <entry key="xml" value="361" />
+          <entry key="java" value="548" />
+          <entry key="xml" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="20" />
-          <entry key="JAVA" value="535" />
-          <entry key="XML" value="361" />
+          <entry key="JAVA" value="548" />
+          <entry key="XML" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="52" column="110" selection-start-line="52" selection-start-column="110" selection-end-line="52" selection-end-column="110" />
+            <state relative-caret-position="300">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunnerWithTestNG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -175,7 +184,6 @@
         <option value="$PROJECT_DIR$/CucumberBasic.iml" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Java8VersionSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/Hook.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/LoginThree.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
@@ -184,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/test/java/runner/TestRunnerWithTestNG.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/LoginSix.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Hook.java" />
       </list>
     </option>
   </component>
@@ -201,7 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,28 +252,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cucumber-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumber-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Transformation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cucumber-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumber-java" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539923370845" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539923600652" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -414,9 +410,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2018.10.18 at 16h 02m 11s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRunner - 2018.10.18 at 16h 02m 40s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
@@ -444,11 +437,15 @@
     <history-entry file="TestRunnerWithTestNG - 2018.10.19 at 00h 16m 39s.xml">
       <configuration name="TestRunnerWithTestNG" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunnerWithTestNG - 2018.10.19 at 16h 01m 16s.xml">
+      <configuration name="TestRunnerWithTestNG" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="-2" width="2519" height="1082" extended-state="6" />
+    <frame x="41" y="25" width="1325" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24545087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24941361" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,13 +454,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49898908" weight="0.32983193" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4937323" weight="0.32563025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4925723" visible="true" weight="0.32463294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.5183987" visible="true" weight="0.3277311" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4816013" side_tool="true" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5175919" weight="0.32682925" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5074277" side_tool="true" weight="0.32463294" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -539,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -571,11 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,27 +585,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2925" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/cucumber-pretty/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/LoginSix-feature.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json" />
+    <entry file="file://$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" />
+    <entry file="file://$PROJECT_DIR$/target/site/cucumber-pretty/index.html" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/LoginSix-feature.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/features/LoginFive.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -632,16 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunnerWithTestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -680,19 +639,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/failures-overview.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-features.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/report-feature_LoginSix-feature.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/failures-overview.html" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-features.html" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/report-feature_LoginSix-feature.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="52" column="110" selection-start-line="52" selection-start-column="110" selection-end-line="52" selection-end-column="110" />
+        <state relative-caret-position="333">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunnerWithTestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
