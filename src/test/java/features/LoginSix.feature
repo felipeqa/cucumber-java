@@ -1,6 +1,6 @@
 Feature: Login Feature FIVE
   This feature deals with the login functionality of the application
-
+@w
   Scenario: Login with correct user and password
     Given I navigate to the login page
     And I enter the user email address as Email:admin

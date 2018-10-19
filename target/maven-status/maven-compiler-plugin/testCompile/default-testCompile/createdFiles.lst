@@ -1,11 +1,11 @@
+Base/BaseUtil.class
+steps/Java8VersionSteps.class
+steps/LoginThree.class
 steps/LoginSteps.class
 steps/LoginFourSteps.class
 Transformation/SalaryCountTransform.class
 Transformation/EmailTranform.class
-Base/BaseUtil.class
 steps/Hook.class
-steps/Java8VersionSteps.class
 pages/LoginPage.class
-steps/LoginThree.class
 steps/LoginThree$User.class
 steps/LoginTwo.class
