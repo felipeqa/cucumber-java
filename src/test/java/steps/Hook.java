@@ -4,8 +4,13 @@ import Base.BaseUtil;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.File;
+import java.io.IOException;
 import java.sql.Driver;
 
 public class Hook extends BaseUtil{
@@ -30,6 +35,8 @@ public class Hook extends BaseUtil{
 
         if(scenario.isFailed()){
             // Take screenshot
+            byte[] scrFile = ((TakesScreenshot)base.driver).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(scrFile, "image/png");
             System.out.println(scenario.getName());
         }
 
